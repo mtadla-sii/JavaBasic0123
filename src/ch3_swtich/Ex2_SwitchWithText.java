@@ -10,6 +10,8 @@ public class Ex2_SwitchWithText {
         String browser = sc.nextLine();
 
         switch (browser) {
+            case "chrome":
+                //dalszy program do napisania
 
         }
         System.out.println("Koniec programu");
