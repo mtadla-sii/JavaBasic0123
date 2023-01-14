@@ -14,7 +14,7 @@ public class Ex12_DoWhileLoop {
         int j = 11;
 
         do {
-            System.out.println("value of j: " + i);
+            System.out.println("value of j: " + j);
             j++;
         } while (j < 10);
 
