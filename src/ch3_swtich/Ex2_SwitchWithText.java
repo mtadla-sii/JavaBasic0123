@@ -11,9 +11,15 @@ public class Ex2_SwitchWithText {
 
         switch (browser) {
             case "chrome":
-                //dalszy program do napisania
-
+                System.out.println("chrome jest wspierany");
+                break;
+            case "firefox":
+                System.out.println("firefox jest wspierany");
+                break;
+            default:
+                System.out.println("ta przegarka nie jest wspierana: " + browser);
         }
+        
         System.out.println("Koniec programu");
     }
 }
