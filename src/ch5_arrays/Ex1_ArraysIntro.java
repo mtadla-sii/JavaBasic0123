@@ -1,9 +1,14 @@
 package ch5_arrays;
 
+import java.util.Scanner;
+
 public class Ex1_ArraysIntro {
 
     public static void main(String[] args) {
-        int[] numbers = new int[5];
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+        
+        int[] numbers = new int[n];
 
         for (int i = 0; i < numbers.length; i++) {
             System.out.println("i: " + i);
