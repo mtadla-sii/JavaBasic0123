@@ -20,16 +20,16 @@ public class Ex4_ArrayMaxMin {
         int max = numbers[0];
         int min = numbers[0];
 
-        for (int i = 0; i < numbers.length; i++) {
-            if (numbers[i] > max) {
-                max = numbers[i];
+        for (int number : numbers) {
+            if (number > max) {
+                max = number;
             }
 
-            if (numbers[i] < min) {
-                min = numbers[i];
+            if (number < min) {
+                min = number;
             }
 
-            sum += numbers[i];
+            sum += number;
         }
 
         System.out.println("printing all elements from array:");
