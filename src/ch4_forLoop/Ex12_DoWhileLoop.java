@@ -18,7 +18,6 @@ public class Ex12_DoWhileLoop {
             j++;
         } while (j < 10);
 
-
         System.out.println("the end");
     }
 }
