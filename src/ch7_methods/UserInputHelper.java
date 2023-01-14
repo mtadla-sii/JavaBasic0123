@@ -20,4 +20,10 @@ public class UserInputHelper {
         Scanner sc = new Scanner(System.in);
         return sc.nextLine();
     }
+
+    public static String getAction() {
+        System.out.println("Proszę podaj rodzaj działania");
+        Scanner sc = new Scanner(System.in);
+        return sc.nextLine();
+    }
 }
