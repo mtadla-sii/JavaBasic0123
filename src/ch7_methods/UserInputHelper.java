@@ -25,7 +25,7 @@ public class UserInputHelper {
         return getText();
     }
 
-    public static String getText() {
+    private static String getText() {
         Scanner sc = new Scanner(System.in);
         return sc.nextLine();
     }
