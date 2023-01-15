@@ -5,6 +5,7 @@ public class Browser {
     String name;
     int version;
 
+    // tutaj powinna byc konstrukcja z 'this.' -> patrz klasa Peson
     public Browser(String vendorToSet, String nameToSet, int versionToSet) {
         vendor = vendorToSet;
         name = nameToSet;
