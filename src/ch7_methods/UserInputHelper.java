@@ -17,12 +17,15 @@ public class UserInputHelper {
 
     public static String getName() {
         System.out.println("Podaj swoje imie");
-        Scanner sc = new Scanner(System.in);
-        return sc.nextLine();
+        return getText();
     }
 
     public static String getAction() {
         System.out.println("Proszę podaj rodzaj działania");
+        return getText();
+    }
+
+    public static String getText() {
         Scanner sc = new Scanner(System.in);
         return sc.nextLine();
     }
