@@ -4,6 +4,7 @@ public class Vehicle {
     String color;
     int horsePower;
 
+    // tutaj powinna byc konstrukcja z 'this.' -> patrz klasa Peson
     public Vehicle(String colorToSet, int horsePowerToSet) {
         color = colorToSet;
         horsePower = horsePowerToSet;
