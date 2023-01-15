@@ -1,8 +1,13 @@
-package ch8_oop;
+package ch9_constructor;
 
-public class Car {
+public class Vehicle {
     String color;
     int horsePower;
+
+    public Vehicle(String colorToSet, int horsePowerToSet) {
+        color = colorToSet;
+        horsePower = horsePowerToSet;
+    }
 
     public void drive() {
         System.out.println("I'm driving "
