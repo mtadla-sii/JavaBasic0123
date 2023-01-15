@@ -1,6 +1,8 @@
 package ch1_variables;
 
 public class ArithmeticOperators {
+
+
     public static void main(String[] args) {
         int x = 10;
         int y = 5;
