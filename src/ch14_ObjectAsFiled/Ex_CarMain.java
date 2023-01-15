@@ -12,5 +12,12 @@ public class Ex_CarMain {
         System.out.println(audi.getEngine().getFuel());
         System.out.println(bmw.getEngine().getFuel());
         System.out.println(ford.getEngine().getFuel());
+
+        diesel.setFuel("electric");
+
+        System.out.println("update.....");
+        System.out.println(audi.getEngine().getFuel());
+        System.out.println(bmw.getEngine().getFuel());
+        System.out.println(ford.getEngine().getFuel());
     }
 }
