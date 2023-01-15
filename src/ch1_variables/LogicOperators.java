@@ -23,7 +23,7 @@ public class LogicOperators {
         System.out.println("bede dzialac na liczbie " + x + " oraz " + y);
 
 
-        System.out.println(x>3 && y<5);
-        System.out.println(x>=3 || y==5);
+        System.out.println(x > 3 && y < 5);
+        System.out.println(x >= 3 || y == 5);
     }
 }

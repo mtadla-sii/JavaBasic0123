@@ -13,7 +13,7 @@ public class Ex2_MethodThatWillRunOtherMethod {
         introduce();
         System.out.println("end");
     }
-    
+
     public static String getName() {
         Scanner sc = new Scanner(System.in);
         printTextToUser();

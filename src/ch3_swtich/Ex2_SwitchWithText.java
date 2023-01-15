@@ -19,7 +19,7 @@ public class Ex2_SwitchWithText {
             default:
                 System.out.println("ta przegarka nie jest wspierana: " + browser);
         }
-        
+
         System.out.println("Koniec programu");
     }
 }
