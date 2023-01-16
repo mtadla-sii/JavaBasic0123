@@ -12,8 +12,10 @@ https://github.com/mtadla-sii/JavaBasic0123/blob/master/Zadania%20bez%20obiektow
 2 zadania z obiektowością
 
 List płac:
+
 https://github.com/mtadla-sii/JavaBasic0123/blob/master/Zadanie%20z%20obiektowosci%20-%20lista%20p%C5%82ac.pdf
 
 
 Samochody:
+
 https://github.com/mtadla-sii/JavaBasic0123/blob/master/Zadanie%20z%20obiektowosci%20-%20samochody.pdf
